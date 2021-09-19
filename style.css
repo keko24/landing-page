@@ -6,7 +6,7 @@ body {
 	background-color: #1F2937;
 	display: flex;
 	flex-flow: column nowrap;
-	gap: 80px;
+	gap: 50px;
 }
 
 .header {
@@ -16,7 +16,7 @@ body {
 }
 
 .below-header {
-	margin-bottom: 100px;
+	margin-bottom: 150px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -47,7 +47,7 @@ body {
 }
 
 .main-text {
-	margin-top: 0;
+	margin-top: 10px;
 	margin-bottom: 0;
 	font-size: 18px;
 	color: #E5E7EB;
@@ -78,6 +78,13 @@ a {
 	color: #E5E7EB;
 }
 
+.below-header img {
+	margin-top: 20px;
+	width: 500px;
+    height: 250px;
+    border-radius: 8px;
+}
+
 .second {
 	margin: 0 0 100px 0;
 	padding: 0;
@@ -97,7 +104,7 @@ a {
 .boxes {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: baseline;
 	gap: 75px;
 }
 
@@ -137,7 +144,8 @@ a {
 }
 
 .third-title {
-	margin: 0 0 0 600px;
+    font-size: 24px;
+	margin: 20px 0 0 800px;
 }
 
 .fourth {
