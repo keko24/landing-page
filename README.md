@@ -1,0 +1,1 @@
+In this project I will be making a landing page. I will be using the skills I learned from the odin project in HTML and CSS. Mostly the things I recently learned about CSS like flexbox, styling and formatting the page elements.
