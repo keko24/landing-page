@@ -6,12 +6,12 @@ body {
 	background-color: #1F2937;
 	display: flex;
 	flex-flow: column nowrap;
-	gap: 100px;
+	gap: 80px;
 }
 
 .header {
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
 }
 
@@ -32,10 +32,11 @@ body {
 }
 
 .left-links {
-	margin-right: 450px;
+	margin: 10px 0 10px 0;
 }
 
 .right-links {
+	font-size: 18px;
 	display: flex;
 	gap: 20px;
 }
@@ -52,12 +53,8 @@ body {
 	color: #E5E7EB;
 }
 
-.left-links, .main-title, .sign-up {
+.main-title, .sign-up {
 	color: #F9FAF8;
-}
-
-.right-links {
-	font-size: 18px;
 }
 
 .sign-up {
@@ -72,6 +69,8 @@ body {
 
 ul {
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
 a {
